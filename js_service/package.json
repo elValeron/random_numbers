@@ -1,0 +1,22 @@
+{
+  "name": "random_numbers_client",
+  "version": "1.0.0",
+  "description": "client for service \"Random_Numbers\"",
+  "main": "startApp.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-mock": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
